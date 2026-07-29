@@ -1,0 +1,3 @@
+/Users/domgirc/GasTurbineProjects/build/CMakeFiles/GasTurbineProjects.dir
+/Users/domgirc/GasTurbineProjects/build/CMakeFiles/edit_cache.dir
+/Users/domgirc/GasTurbineProjects/build/CMakeFiles/rebuild_cache.dir
