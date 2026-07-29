@@ -1,0 +1,15 @@
+# CMake build output
+build/
+cmake-build-*/
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Compiled files
+*.o
+*.out
+*.exe
+
+# VS Code local settings
+.vscode/
