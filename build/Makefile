@@ -129,6 +129,30 @@ GasTurbineProjects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/build
 .PHONY : GasTurbineProjects/fast
 
+src/SimulationClock.o: src/SimulationClock.cpp.o
+.PHONY : src/SimulationClock.o
+
+# target to build an object file
+src/SimulationClock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o
+.PHONY : src/SimulationClock.cpp.o
+
+src/SimulationClock.i: src/SimulationClock.cpp.i
+.PHONY : src/SimulationClock.i
+
+# target to preprocess a source file
+src/SimulationClock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.i
+.PHONY : src/SimulationClock.cpp.i
+
+src/SimulationClock.s: src/SimulationClock.cpp.s
+.PHONY : src/SimulationClock.s
+
+# target to generate assembly for a file
+src/SimulationClock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.s
+.PHONY : src/SimulationClock.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GasTurbineProjects"
+	@echo "... src/SimulationClock.o"
+	@echo "... src/SimulationClock.i"
+	@echo "... src/SimulationClock.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o"
+  "CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o.d"
   "CMakeFiles/GasTurbineProjects.dir/src/main.cpp.o"
   "CMakeFiles/GasTurbineProjects.dir/src/main.cpp.o.d"
   "GasTurbineProjects"

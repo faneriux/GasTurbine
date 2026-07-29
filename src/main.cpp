@@ -1,25 +1,22 @@
+#include <cstddef>
+#include "SimulationClock.hpp"
 #include <iostream>
-
 int main(){
 
-constexpr double time_step_s{0.01};
-constexpr double simulation_duration_s{5.0};
+    double time{0.0};
+    std::size_t iteration{0};
+    SimulationClock clock(0.1);
 
-double simulation_time_s{0.0};
+    while (clock.current_time() < 1.0) {
+        
+            clock.advance();
+            time = clock.current_time();
+            iteration = clock.current_iteration();
+            
 
-std::size_t iteration{0};
+            std::cout << "Current time: " << time << " seconds, Current iteration: " << iteration << std::endl;
 
-while (simulation_time_s < simulation_duration_s)
-{
 
-    if (iteration % 100 == 0)
-    {
-    std::cout << simulation_time_s << '\n';
     }
-
-    ++iteration;
-    simulation_time_s = static_cast<double>(iteration) * time_step_s;
-}
-
     return 0;
 }
