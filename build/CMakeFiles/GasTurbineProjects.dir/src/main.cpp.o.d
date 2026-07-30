@@ -33,6 +33,7 @@ CMakeFiles/GasTurbineProjects.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/__cstddef/ptrdiff_t.h \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/__cstddef/size_t.h \
   /Users/domgirc/GasTurbineProjects/include/SimulationClock.hpp \
+  /Users/domgirc/GasTurbineProjects/include/SpoolModel.hpp \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/iostream \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/ios \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/iosfwd \

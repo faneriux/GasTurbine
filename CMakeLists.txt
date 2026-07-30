@@ -10,6 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(GasTurbineProjects
     src/main.cpp
     src/SimulationClock.cpp
+    src/SpoolModel.cpp
 )
 
 target_include_directories(GasTurbineProjects PRIVATE

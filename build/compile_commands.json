@@ -10,5 +10,11 @@
   "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/domgirc/GasTurbineProjects/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -o CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o -c /Users/domgirc/GasTurbineProjects/src/SimulationClock.cpp",
   "file": "/Users/domgirc/GasTurbineProjects/src/SimulationClock.cpp",
   "output": "CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o"
+},
+{
+  "directory": "/Users/domgirc/GasTurbineProjects/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/domgirc/GasTurbineProjects/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -o CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.o -c /Users/domgirc/GasTurbineProjects/src/SpoolModel.cpp",
+  "file": "/Users/domgirc/GasTurbineProjects/src/SpoolModel.cpp",
+  "output": "CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.o"
 }
 ]

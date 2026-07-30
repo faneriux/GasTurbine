@@ -153,6 +153,30 @@ src/SimulationClock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.s
 .PHONY : src/SimulationClock.cpp.s
 
+src/SpoolModel.o: src/SpoolModel.cpp.o
+.PHONY : src/SpoolModel.o
+
+# target to build an object file
+src/SpoolModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.o
+.PHONY : src/SpoolModel.cpp.o
+
+src/SpoolModel.i: src/SpoolModel.cpp.i
+.PHONY : src/SpoolModel.i
+
+# target to preprocess a source file
+src/SpoolModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.i
+.PHONY : src/SpoolModel.cpp.i
+
+src/SpoolModel.s: src/SpoolModel.cpp.s
+.PHONY : src/SpoolModel.s
+
+# target to generate assembly for a file
+src/SpoolModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.s
+.PHONY : src/SpoolModel.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/SimulationClock.o"
 	@echo "... src/SimulationClock.i"
 	@echo "... src/SimulationClock.s"
+	@echo "... src/SpoolModel.o"
+	@echo "... src/SpoolModel.i"
+	@echo "... src/SpoolModel.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
