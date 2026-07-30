@@ -11,6 +11,7 @@ add_executable(GasTurbineProjects
     src/main.cpp
     src/SimulationClock.cpp
     src/SpoolModel.cpp
+    src/Simulation.cpp
 )
 
 target_include_directories(GasTurbineProjects PRIVATE

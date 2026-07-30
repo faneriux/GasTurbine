@@ -1,24 +1,14 @@
-#include "SimulationClock.hpp"
-#include "SpoolModel.hpp"
-#include <iostream>
+#include "Simulation.hpp"
 
 int main(){
 
-    const double time_step = 0.5; // seconds
-    const double demanded_speed = 5000.0; // RPM
-    const double initial_speed = 0.0; // RPM
-    const double time_constant = 1.0; // seconds
-    const double simulation_duration = 10.0; // seconds
-    SimulationClock clock(time_step); 
-    SpoolModel spool(initial_speed, time_constant);
-    
-    while (clock.current_time() < simulation_duration) {
+    const double time_step_s = 0.01;
+    const double initial_speed_rpm = 1000.0;
+    const double time_constant_s = 1.0;
+    const double demanded_speed_rpm = 2000.0;
+    const double simulation_duration_s = 10.0;
 
-            spool.update(demanded_speed, clock.time_step());
-            clock.advance();
-            std::cout << "Current time: " << clock.current_time() << " seconds, Current speed: " << spool.current_speed() << " RPM" << std::endl;
-
-    }
-    
-    return 0;
+Simulation simulation(time_step_s, initial_speed_rpm, time_constant_s, demanded_speed_rpm, simulation_duration_s);
+simulation.run();
+return 0;
 }
