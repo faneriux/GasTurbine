@@ -5,7 +5,6 @@
 
 int main(){
 
-    double time{0.0};
     const double time_step = 0.5; // seconds
     const double demanded_speed = 5000.0; // RPM
     const double initial_speed = 0.0; // RPM
