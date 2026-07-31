@@ -1,5 +1,4 @@
 #pragma once
-
 class SpoolModel {
 private:
 
@@ -9,7 +8,8 @@ private:
     
 
     public:
-    explicit SpoolModel(double initial_speed_rpm = 0.0, double time_constant_s = 1.0);
+    explicit SpoolModel(double initial_speed_rpm = 0.0, 
+        double time_constant_s = 1.0);
     void update(double demanded_speed_rpm, double time_step_s);
     double current_speed() const;
     

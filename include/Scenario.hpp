@@ -1,11 +1,9 @@
 #pragma once
 #include <cstddef>
 #include <vector>
-
 class Scenario{
 
 private:
-    
     std::size_t current_sample_index_ = 0;
     std::vector<double> demand_profile_rpm_;
     const double sample_time_s_;

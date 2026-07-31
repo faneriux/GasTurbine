@@ -2,7 +2,7 @@
 #include "Scenario.hpp"
 
 Scenario::Scenario(double sample_time_s, const std::vector<double>& demand_profile_rpm)
-    : sample_time_s_(sample_time_s), demand_profile_rpm_(demand_profile_rpm) {
+    : demand_profile_rpm_(demand_profile_rpm), sample_time_s_(sample_time_s) {
     if (sample_time_s <= 0.0) {
         throw std::invalid_argument("Sample time must be positive.");
     }
