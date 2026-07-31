@@ -129,6 +129,30 @@ GasTurbineProjects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/build
 .PHONY : GasTurbineProjects/fast
 
+src/Scenario.o: src/Scenario.cpp.o
+.PHONY : src/Scenario.o
+
+# target to build an object file
+src/Scenario.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o
+.PHONY : src/Scenario.cpp.o
+
+src/Scenario.i: src/Scenario.cpp.i
+.PHONY : src/Scenario.i
+
+# target to preprocess a source file
+src/Scenario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.i
+.PHONY : src/Scenario.cpp.i
+
+src/Scenario.s: src/Scenario.cpp.s
+.PHONY : src/Scenario.s
+
+# target to generate assembly for a file
+src/Scenario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.s
+.PHONY : src/Scenario.cpp.s
+
 src/Simulation.o: src/Simulation.cpp.o
 .PHONY : src/Simulation.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GasTurbineProjects"
+	@echo "... src/Scenario.o"
+	@echo "... src/Scenario.i"
+	@echo "... src/Scenario.s"
 	@echo "... src/Simulation.o"
 	@echo "... src/Simulation.i"
 	@echo "... src/Simulation.s"
