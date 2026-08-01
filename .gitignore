@@ -1,6 +1,7 @@
 # CMake build output
 build/
 cmake-build-*/
+output/
 
 # macOS
 .DS_Store
