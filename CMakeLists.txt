@@ -13,6 +13,8 @@ add_executable(GasTurbineProjects
     src/SpoolModel.cpp
     src/Simulation.cpp
     src/Scenario.cpp
+    src/CsvLogger.cpp
+    src/FileNameGenerator.cpp
 )
 
 target_include_directories(GasTurbineProjects PRIVATE

@@ -4,8 +4,13 @@
 Simulation::Simulation(double time_step_s, 
                          double initial_speed_rpm, 
                          double time_constant_s, 
-                         const std::vector<double>& demand_profile_rpm)
-    : clock_(time_step_s), spool_(initial_speed_rpm, time_constant_s), scenario_(time_step_s, demand_profile_rpm) {}
+                         const std::vector<double>& demand_profile_rpm,
+                         const std::string& output_filename)
+    : clock_(time_step_s), 
+    spool_(initial_speed_rpm,
+    time_constant_s),
+    scenario_(time_step_s, demand_profile_rpm),
+    logger_(output_filename) {}
 
 
 void Simulation::run() {
@@ -16,6 +21,7 @@ void Simulation::run() {
         std::cout << "Time: " << clock_.current_time() << " s, "
                   << "Demanded Speed: " << demanded_speed_rpm << " RPM, "
                   << "Current Speed: " << spool_.current_speed() << " RPM\n"; 
+        logger_.log(clock_.current_time(), demanded_speed_rpm, spool_.current_speed());
         scenario_.advance();
     }
 }

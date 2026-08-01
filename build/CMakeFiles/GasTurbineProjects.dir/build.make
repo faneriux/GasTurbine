@@ -142,13 +142,43 @@ CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.s"
 	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domgirc/GasTurbineProjects/src/Scenario.cpp -o CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.s
 
+CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o: CMakeFiles/GasTurbineProjects.dir/flags.make
+CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o: /Users/domgirc/GasTurbineProjects/src/CsvLogger.cpp
+CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o: CMakeFiles/GasTurbineProjects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/domgirc/GasTurbineProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o"
+	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o -MF CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o.d -o CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o -c /Users/domgirc/GasTurbineProjects/src/CsvLogger.cpp
+
+CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.i"
+	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domgirc/GasTurbineProjects/src/CsvLogger.cpp > CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.i
+
+CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.s"
+	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domgirc/GasTurbineProjects/src/CsvLogger.cpp -o CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.s
+
+CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o: CMakeFiles/GasTurbineProjects.dir/flags.make
+CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o: /Users/domgirc/GasTurbineProjects/src/FileNameGenerator.cpp
+CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o: CMakeFiles/GasTurbineProjects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/domgirc/GasTurbineProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o"
+	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o -MF CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o.d -o CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o -c /Users/domgirc/GasTurbineProjects/src/FileNameGenerator.cpp
+
+CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.i"
+	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domgirc/GasTurbineProjects/src/FileNameGenerator.cpp > CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.i
+
+CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.s"
+	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domgirc/GasTurbineProjects/src/FileNameGenerator.cpp -o CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.s
+
 # Object files for target GasTurbineProjects
 GasTurbineProjects_OBJECTS = \
 "CMakeFiles/GasTurbineProjects.dir/src/main.cpp.o" \
 "CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o" \
 "CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.o" \
 "CMakeFiles/GasTurbineProjects.dir/src/Simulation.cpp.o" \
-"CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o"
+"CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o" \
+"CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o" \
+"CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o"
 
 # External object files for target GasTurbineProjects
 GasTurbineProjects_EXTERNAL_OBJECTS =
@@ -158,9 +188,11 @@ GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o
 GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/src/SpoolModel.cpp.o
 GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/src/Simulation.cpp.o
 GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o
+GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o
+GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o
 GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/build.make
 GasTurbineProjects: CMakeFiles/GasTurbineProjects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/domgirc/GasTurbineProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GasTurbineProjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/domgirc/GasTurbineProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable GasTurbineProjects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GasTurbineProjects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

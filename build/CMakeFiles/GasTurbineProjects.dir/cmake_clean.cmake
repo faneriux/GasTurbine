@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o"
+  "CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o.d"
+  "CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o"
+  "CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o.d"
   "CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o"
   "CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o.d"
   "CMakeFiles/GasTurbineProjects.dir/src/Simulation.cpp.o"

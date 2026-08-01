@@ -28,5 +28,17 @@
   "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/domgirc/GasTurbineProjects/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -o CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o -c /Users/domgirc/GasTurbineProjects/src/Scenario.cpp",
   "file": "/Users/domgirc/GasTurbineProjects/src/Scenario.cpp",
   "output": "CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o"
+},
+{
+  "directory": "/Users/domgirc/GasTurbineProjects/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/domgirc/GasTurbineProjects/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -o CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o -c /Users/domgirc/GasTurbineProjects/src/CsvLogger.cpp",
+  "file": "/Users/domgirc/GasTurbineProjects/src/CsvLogger.cpp",
+  "output": "CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o"
+},
+{
+  "directory": "/Users/domgirc/GasTurbineProjects/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/domgirc/GasTurbineProjects/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -o CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o -c /Users/domgirc/GasTurbineProjects/src/FileNameGenerator.cpp",
+  "file": "/Users/domgirc/GasTurbineProjects/src/FileNameGenerator.cpp",
+  "output": "CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o"
 }
 ]

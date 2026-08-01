@@ -1,4 +1,5 @@
 #include <stdexcept>
+#include <algorithm>
 #include "Scenario.hpp"
 
 Scenario::Scenario(double sample_time_s, const std::vector<double>& demand_profile_rpm)

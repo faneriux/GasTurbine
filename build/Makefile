@@ -129,6 +129,54 @@ GasTurbineProjects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/build
 .PHONY : GasTurbineProjects/fast
 
+src/CsvLogger.o: src/CsvLogger.cpp.o
+.PHONY : src/CsvLogger.o
+
+# target to build an object file
+src/CsvLogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.o
+.PHONY : src/CsvLogger.cpp.o
+
+src/CsvLogger.i: src/CsvLogger.cpp.i
+.PHONY : src/CsvLogger.i
+
+# target to preprocess a source file
+src/CsvLogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.i
+.PHONY : src/CsvLogger.cpp.i
+
+src/CsvLogger.s: src/CsvLogger.cpp.s
+.PHONY : src/CsvLogger.s
+
+# target to generate assembly for a file
+src/CsvLogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/CsvLogger.cpp.s
+.PHONY : src/CsvLogger.cpp.s
+
+src/FileNameGenerator.o: src/FileNameGenerator.cpp.o
+.PHONY : src/FileNameGenerator.o
+
+# target to build an object file
+src/FileNameGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o
+.PHONY : src/FileNameGenerator.cpp.o
+
+src/FileNameGenerator.i: src/FileNameGenerator.cpp.i
+.PHONY : src/FileNameGenerator.i
+
+# target to preprocess a source file
+src/FileNameGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.i
+.PHONY : src/FileNameGenerator.cpp.i
+
+src/FileNameGenerator.s: src/FileNameGenerator.cpp.s
+.PHONY : src/FileNameGenerator.s
+
+# target to generate assembly for a file
+src/FileNameGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.s
+.PHONY : src/FileNameGenerator.cpp.s
+
 src/Scenario.o: src/Scenario.cpp.o
 .PHONY : src/Scenario.o
 
@@ -258,6 +306,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GasTurbineProjects"
+	@echo "... src/CsvLogger.o"
+	@echo "... src/CsvLogger.i"
+	@echo "... src/CsvLogger.s"
+	@echo "... src/FileNameGenerator.o"
+	@echo "... src/FileNameGenerator.i"
+	@echo "... src/FileNameGenerator.s"
 	@echo "... src/Scenario.o"
 	@echo "... src/Scenario.i"
 	@echo "... src/Scenario.s"
