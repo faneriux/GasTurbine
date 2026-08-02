@@ -15,6 +15,7 @@ add_executable(GasTurbineProjects
     src/Scenario.cpp
     src/CsvLogger.cpp
     src/FileNameGenerator.cpp
+    src/ScenarioBuilder.cpp
 )
 
 target_include_directories(GasTurbineProjects PRIVATE

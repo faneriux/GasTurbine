@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GasTurbineProjects.dir/src/FileNameGenerator.cpp.o.d"
   "CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o"
   "CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.o.d"
+  "CMakeFiles/GasTurbineProjects.dir/src/ScenarioBuilder.cpp.o"
+  "CMakeFiles/GasTurbineProjects.dir/src/ScenarioBuilder.cpp.o.d"
   "CMakeFiles/GasTurbineProjects.dir/src/Simulation.cpp.o"
   "CMakeFiles/GasTurbineProjects.dir/src/Simulation.cpp.o.d"
   "CMakeFiles/GasTurbineProjects.dir/src/SimulationClock.cpp.o"

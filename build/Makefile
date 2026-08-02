@@ -201,6 +201,30 @@ src/Scenario.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/Scenario.cpp.s
 .PHONY : src/Scenario.cpp.s
 
+src/ScenarioBuilder.o: src/ScenarioBuilder.cpp.o
+.PHONY : src/ScenarioBuilder.o
+
+# target to build an object file
+src/ScenarioBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/ScenarioBuilder.cpp.o
+.PHONY : src/ScenarioBuilder.cpp.o
+
+src/ScenarioBuilder.i: src/ScenarioBuilder.cpp.i
+.PHONY : src/ScenarioBuilder.i
+
+# target to preprocess a source file
+src/ScenarioBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/ScenarioBuilder.cpp.i
+.PHONY : src/ScenarioBuilder.cpp.i
+
+src/ScenarioBuilder.s: src/ScenarioBuilder.cpp.s
+.PHONY : src/ScenarioBuilder.s
+
+# target to generate assembly for a file
+src/ScenarioBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GasTurbineProjects.dir/build.make CMakeFiles/GasTurbineProjects.dir/src/ScenarioBuilder.cpp.s
+.PHONY : src/ScenarioBuilder.cpp.s
+
 src/Simulation.o: src/Simulation.cpp.o
 .PHONY : src/Simulation.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... src/Scenario.o"
 	@echo "... src/Scenario.i"
 	@echo "... src/Scenario.s"
+	@echo "... src/ScenarioBuilder.o"
+	@echo "... src/ScenarioBuilder.i"
+	@echo "... src/ScenarioBuilder.s"
 	@echo "... src/Simulation.o"
 	@echo "... src/Simulation.i"
 	@echo "... src/Simulation.s"

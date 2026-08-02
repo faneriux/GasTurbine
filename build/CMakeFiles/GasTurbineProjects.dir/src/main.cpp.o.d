@@ -1013,4 +1013,5 @@ CMakeFiles/GasTurbineProjects.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/Cellar/llvm/22.1.8/bin/../include/c++/v1/__filesystem/u8path.h \
-  /Users/domgirc/GasTurbineProjects/include/FileNameGenerator.hpp
+  /Users/domgirc/GasTurbineProjects/include/FileNameGenerator.hpp \
+  /Users/domgirc/GasTurbineProjects/include/ScenarioBuilder.hpp
